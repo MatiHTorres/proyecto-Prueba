@@ -7,10 +7,7 @@ Border = esta justo despues del final del margin
 Los elementos por defecto vienen con un margin determinado lo que les da un espaciado que yo por gusto personal se los saco con la regla ( * margin: 0;)
 para poder personalizarlo mas a gusto
 
-*/
-
-
-* {
+{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -18,7 +15,7 @@ para poder personalizarlo mas a gusto
     padding: 0;
 }
 
-/* Clases de la fuente importada usada
+    Clases de la fuente importada usada
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -32,29 +29,30 @@ para poder personalizarlo mas a gusto
     font-style: normal;
 }
 
-*/
 
 
-/* Estilos por defecto para móviles en vertical */
 
-/* TODOS ESTOS ESTILOS SON REALIZADOS CON EL PENSAMIENTO DE MOBILE FIRST (PENSADO PARA VERSE EN CELULAR POR DEFECTO),
- Y LUEGO ESCALADOS SEGUN EL TAMAÑO HORIZONTAL Y VERTICAL A PANTALLAS DE MAS PIXELES */
+ Estilos por defecto para móviles en vertical 
+
+ TODOS ESTOS ESTILOS SON REALIZADOS CON EL PENSAMIENTO DE MOBILE FIRST (PENSADO PARA VERSE EN CELULAR POR DEFECTO),
+ Y LUEGO ESCALADOS SEGUN EL TAMAÑO HORIZONTAL Y VERTICAL A PANTALLAS DE MAS PIXELES 
 
 
-/* Estilos generales */
+ Estilos generales 
 
-/* Al pasar el cursor por ensima de una de estas reglas CSS, se despliega una descripcion de lo que hacen, en ingles */
-/* Todas las ediciones en CSS tienen que terminar en ; de lo contrario no funcionaran y provocara un error */
-/* Todas los cambios dentro de una etiqueta ( <etiqueta> ) clase (class="clase") id ( id="identificador") tienen que ir dentro de llaves ( { } )*/
+ Al pasar el cursor por ensima de una de estas reglas CSS, se despliega una descripcion de lo que hacen, en ingles 
+ Todas las ediciones en CSS tienen que terminar en ; de lo contrario no funcionaran y provocara un error 
+ Todas los cambios dentro de una etiqueta ( <etiqueta> ) clase (class="clase") id ( id="identificador") tienen que ir dentro de llaves ( { } )
 
-/* Aca estoy personalizando la etiqueta <header> */
+ Aca estoy personalizando la etiqueta <header> 
+
 header {
     padding: 10px;
     background-color: gray;
     color: white;
 }
 
-/* Aca estoy personalizando la clase titulo, primero se le agrega un punto ( . )*/
+ Aca estoy personalizando la clase titulo, primero se le agrega un punto ( . )
 .titulo {
     margin: 0;
     padding-top: 10px;
@@ -65,9 +63,9 @@ header {
     border-bottom: 1px solid white;
 }
 
-/* Y para el ID de un elemento EJ: <h3 id="identificadorh3">, se le agrega un gato ( # ) al nombre que pusimos como ID = #idetificadorh3  */
+ Y para el ID de un elemento EJ: <h3 id="identificadorh3">, se le agrega un gato ( # ) al nombre que pusimos como ID = #idetificadorh3  
 
-/* La jeraquia empieza con la <etiqueta> < class < id < !important */
+ La jeraquia empieza con la <etiqueta> < class < id < !important 
 
 nav {
     margin: 0;
@@ -127,7 +125,7 @@ img {
     border-radius: 5%;
 }
 
-/* Efecto de Zoom al pasar el cursor por la imagen*/
+ Efecto de Zoom al pasar el cursor por la imagen
 
 img:hover{
     transform: scale(1.1);
@@ -162,5 +160,4 @@ footer {
     font-weight: bold;
 }
 
-
-
+*/

@@ -1,0 +1,113 @@
+<!-- Al escribir HTML 5 se crea la estructura de un HTML simple -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <title>Te Lo Vendo</title>
+</head>
+<!-- TIPS -->
+<!-- Para crear este recuadro de comentario apreten CTRL + } -->
+<!-- ALT + SHIFT + F - Te ordena el codigo de manera automatica -->
+<!-- Al seleccionar un recuadro de codigo, este se puede mover con la tecla ALT y las flechas del taclado -->
+<!-- Se pueden crear varias etiquetas a la vez agregando un * a la sentencia EJ: secction*5 me crearia 5 etiquetas de secction -->
+
+<!-- Todo el contenido visual de nuestro html tiene que ir en el body -->
+<body>
+
+    <!-- En el header va nuestro logo, barra de navegacion y todo lo relacionado al titulo de nuestro sitio -->
+    <header>
+        <h1 class="display-1 text-center bg-light">Te Lo Vendo</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                  <img src="./assets/img/logo.svg" alt="Icono de la Tienda" width="70px">
+                </a>
+              <a class="navbar-brand mb-0 h1">Ropa Deportiva</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./estadisticas.html">Estadisticas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        
+    
+    <!-- En el main va todo lo central de nuestra pagina, imagenes , descripcion, formularios, todo el contenido principal va en este etiqueta -->
+    <main>
+        <section>
+          <div class="text-center py-2" >
+            <h2 class="h1"> Sobre nosotros</h2>
+            <p class="lead"> Nuestro negocio se dedica a la venta de articulos deportivos, como ropa y accesorios de las mejores marcas.</p>
+            <p class="lead"> Estamos ubicados en Santiago de Chile y operamos desde el año 2024.</p>     
+          </div>
+        </section>
+
+        <section>
+          <div class="text-center">
+            <h2>Productos con descuento</h2>
+            <img src="./assets/img/airmaxnegra.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Zapatillas airmax unisex negro, marca Nike">
+            <img src="./assets/img/pantalonadidas.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Pantalon deportivode hombre, marca Adidas">
+            <img src="./assets/img/poleronpuma.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Poleron deportivo marca Puma">
+            <img src="./assets/img/shortdeportivo.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Short deportivo marca Adidas">
+            <img src="./assets/img/poleraunderarmour.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Polera deportiva Under armour">
+            <img src="./assets/img/terrexeastrail2.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Zapatillas Terrex Eastrail 2">
+            <img src="./assets/img/chaquetanorthface.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Chaqueta de Trekking mujer, marca The North Face">
+            <img src="./assets/img/calzadeportivanike.avif" class="img-fluid img-thumbnail col-10 col-sm-5 col-md-4 col-lg-3 m-3" alt="Calza deportiva de mujer, marca Nike">
+          </div>
+        </section>
+
+        <section>
+          <div class="text-center py-2">
+            <p class="lead"><strong>Variades de productos para hombres, mujeres y niños.</strong></p>
+          </div>
+        </section>
+
+    </main>
+
+    <!-- En el footer va todo lo relacionado al pie de pagina, como las redes sociales, creador del sitio, derechos de autos, links y medios de contacto 
+     y otra informacion relevante -->
+    <footer class="bg-light">
+      <div class="text-center py-3">
+
+        <h3>Integrantes: Grupo 6</h3>
+
+        <p> 
+          Matias Henriquez</br>
+          Viviana Alvarez </br>
+          Javier Fuentes </br>
+          Felipe Arias </br>
+          Joshua Montt
+        </p>
+
+        <p><strong>2024</strong></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+
+    <script src="./assets/js/funciones.js"></script>
+
+</body>
+
+</html>

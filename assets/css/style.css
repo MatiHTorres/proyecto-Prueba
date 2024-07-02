@@ -1,0 +1,166 @@
+/* Seteo global de fuente, margin y padding
+
+Margin = es el margen externo de un elemento
+Padding = es el relleno interno , un margen por dentro del elemento
+Border = esta justo despues del final del margin
+
+Los elementos por defecto vienen con un margin determinado lo que les da un espaciado que yo por gusto personal se los saco con la regla ( * margin: 0;)
+para poder personalizarlo mas a gusto
+
+*/
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Clases de la fuente importada usada
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+*/
+
+
+/* Estilos por defecto para móviles en vertical */
+
+/* TODOS ESTOS ESTILOS SON REALIZADOS CON EL PENSAMIENTO DE MOBILE FIRST (PENSADO PARA VERSE EN CELULAR POR DEFECTO),
+ Y LUEGO ESCALADOS SEGUN EL TAMAÑO HORIZONTAL Y VERTICAL A PANTALLAS DE MAS PIXELES */
+
+
+/* Estilos generales */
+
+/* Al pasar el cursor por ensima de una de estas reglas CSS, se despliega una descripcion de lo que hacen, en ingles */
+/* Todas las ediciones en CSS tienen que terminar en ; de lo contrario no funcionaran y provocara un error */
+/* Todas los cambios dentro de una etiqueta ( <etiqueta> ) clase (class="clase") id ( id="identificador") tienen que ir dentro de llaves ( { } )*/
+
+/* Aca estoy personalizando la etiqueta <header> */
+header {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+/* Aca estoy personalizando la clase titulo, primero se le agrega un punto ( . )*/
+.titulo {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+}
+
+/* Y para el ID de un elemento EJ: <h3 id="identificadorh3">, se le agrega un gato ( # ) al nombre que pusimos como ID = #idetificadorh3  */
+
+/* La jeraquia empieza con la <etiqueta> < class < id < !important */
+
+nav {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+main {
+    text-align: center;
+}
+
+section {
+    padding: 5px;
+}
+
+.subtitulo {
+    margin: 10px 0;
+
+}
+
+.descripcion {
+    margin: 5px;
+}
+
+.formulario {
+    font-size: 15px;
+    padding: 40px 0;
+}
+
+ul{
+    padding: 10px 0;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+button{
+    font-size: 15px;
+    padding: 2px;
+}
+
+img {
+    margin: 5px;
+    width: 90%;
+    height: auto;
+    border-radius: 5%;
+}
+
+/* Efecto de Zoom al pasar el cursor por la imagen*/
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+.titulofooter {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.integrantes {
+    padding: 5px;
+}
+
+.anio {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+

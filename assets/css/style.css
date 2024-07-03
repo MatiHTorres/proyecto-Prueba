@@ -1,19 +1,36 @@
-h1{
+h1 {
     background-color: lightgray;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav {
     background-color: aqua;
 }
 
-img:hover{
+img:hover {
     transform: scale(1.1);
     transition: 1s;
     border: 2px solid teal;
     box-shadow: 0 0 20px teal;
 }
 
-footer{ 
+footer {
     background-color: lightgray;
+}
+
+form {
+    background-image: url(https://www.nebrija.com/medios/nebrijaglobalcampus/wp-content/uploads/sites/31/2020/06/shutterstock_1066064930b-750x410.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.fondoFormulario{
+    margin: auto;
+    padding: auto;
+    background-color: rgba(7, 232, 240, 0.8);
+    border-radius: 10%;
+    box-shadow: 0 0 20px teal;
+    border: 1px solid black;
 }

@@ -6,6 +6,14 @@ h1{
 nav {
     background-color: aqua;
 }
+
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    border: 2px solid teal;
+    box-shadow: 0 0 20px teal;
+}
+
 footer{ 
     background-color: lightgray;
 }

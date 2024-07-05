@@ -7,6 +7,12 @@ nav {
     background-color: aqua;
 }
 
+section {
+    text-align: center;
+    font: bold 30px;
+    border-image-width:inherit;
+}
+
 img:hover {
     transform: scale(1.1);
     transition: 1s;
